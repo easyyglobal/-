@@ -10,7 +10,7 @@ export default function Reservation() {
           <motion.span 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-secondary font-bold tracking-[0.3em] uppercase text-sm mb-4 block"
+            className="text-accent font-bold tracking-[0.3em] uppercase text-sm mb-4 block"
           >
             Booking Information
           </motion.span>
@@ -27,8 +27,8 @@ export default function Reservation() {
           {/* Check-in/out */}
           <section className="bg-white/40 border border-primary/5 p-8 md:p-12 rounded-[2.5rem] grid grid-cols-1 md:grid-cols-2 gap-8 shadow-sm">
             <div className="flex gap-6">
-              <div className="w-12 h-12 rounded-2xl bg-secondary/20 flex items-center justify-center shrink-0 shadow-sm">
-                <Clock className="text-secondary" />
+              <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center shrink-0 shadow-sm">
+                <Clock className="text-accent" />
               </div>
               <div>
                 <h3 className="font-bold text-lg mb-2 text-primary">Check-in</h3>
@@ -36,8 +36,8 @@ export default function Reservation() {
               </div>
             </div>
             <div className="flex gap-6">
-              <div className="w-12 h-12 rounded-2xl bg-secondary/20 flex items-center justify-center shrink-0 shadow-sm">
-                <Clock className="text-secondary" />
+              <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center shrink-0 shadow-sm">
+                <Clock className="text-accent" />
               </div>
               <div>
                 <h3 className="font-bold text-lg mb-2 text-primary">Check-out</h3>
@@ -50,7 +50,7 @@ export default function Reservation() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <section className="space-y-6 p-8 rounded-3xl bg-white/40 border border-primary/5">
               <h3 className="text-xl font-bold flex items-center gap-2 text-primary">
-                <AlertCircle className="text-secondary w-5 h-5" />
+                <AlertCircle className="text-accent w-5 h-5" />
                 이용 안내
               </h3>
               <ul className="space-y-4 text-primary/60 text-sm leading-relaxed">
@@ -63,7 +63,7 @@ export default function Reservation() {
 
             <section className="space-y-6 p-8 rounded-3xl bg-white/40 border border-primary/5">
               <h3 className="text-xl font-bold flex items-center gap-2 text-primary">
-                <RefreshCcw className="text-secondary w-5 h-5" />
+                <RefreshCcw className="text-accent w-5 h-5" />
                 환불 규정
               </h3>
               <ul className="space-y-4 text-primary/60 text-sm leading-relaxed">
@@ -92,7 +92,7 @@ export default function Reservation() {
                 href="https://booking.naver.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 glass text-white px-12 py-5 rounded-full font-bold text-xl tracking-widest hover:bg-white/20 transition-all duration-300"
+                className="inline-flex items-center gap-3 bg-accent text-white px-12 py-5 rounded-full font-bold text-xl tracking-widest hover:bg-accent/90 transition-all duration-300 shadow-2xl"
               >
                 <Calendar className="w-6 h-6" />
                 네이버 예약하기

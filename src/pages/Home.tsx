@@ -27,17 +27,17 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mt-20">
               <div className="space-y-4 p-8 rounded-3xl bg-white/50 border border-primary/5">
-                <span className="text-secondary font-bold text-sm tracking-widest">01</span>
+                <span className="text-accent font-bold text-sm tracking-widest">01</span>
                 <h3 className="text-xl font-bold">Private View</h3>
                 <p className="text-primary/60 text-sm leading-relaxed">전 객실에서 감상하는 파노라마 오션뷰. 누구에게도 방해받지 않는 당신만의 바다.</p>
               </div>
               <div className="space-y-4 p-8 rounded-3xl bg-white/50 border border-primary/5">
-                <span className="text-secondary font-bold text-sm tracking-widest">02</span>
+                <span className="text-accent font-bold text-sm tracking-widest">02</span>
                 <h3 className="text-xl font-bold">Minimal Design</h3>
                 <p className="text-primary/60 text-sm leading-relaxed">여백의 미를 살린 인테리어. 시각적 편안함이 주는 깊은 휴식의 가치.</p>
               </div>
               <div className="space-y-4 p-8 rounded-3xl bg-white/50 border border-primary/5">
-                <span className="text-secondary font-bold text-sm tracking-widest">03</span>
+                <span className="text-accent font-bold text-sm tracking-widest">03</span>
                 <h3 className="text-xl font-bold">Inspiration</h3>
                 <p className="text-primary/60 text-sm leading-relaxed">아침의 햇살과 저녁의 노을. 머무는 것만으로도 새로운 영감이 깨어나는 곳.</p>
               </div>
@@ -120,14 +120,14 @@ export default function Home() {
             </motion.div>
           </div>
           <div className="w-full md:w-1/2 space-y-8">
-            <span className="text-secondary font-bold tracking-[0.2em] text-sm uppercase">Experience</span>
+            <span className="text-accent font-bold tracking-[0.2em] text-sm uppercase">Experience</span>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">시설이 아닌,<br />머무름의 경험을 담다</h2>
             <p className="text-primary/60 text-lg leading-relaxed">
               아침에 눈을 뜨면 마주하는 윤슬, 테라스에서 즐기는 따뜻한 커피 한 잔, 
               그리고 붉게 물드는 서귀포의 노을까지. 메타리움은 당신의 모든 순간이 
               하나의 작품이 되기를 바랍니다.
             </p>
-            <Link to="/experience" className="inline-block px-8 py-4 bg-primary text-white rounded-full font-bold tracking-widest hover:bg-primary/90 transition-colors">
+            <Link to="/experience" className="inline-block px-8 py-4 bg-accent text-white rounded-full font-bold tracking-widest hover:bg-accent/90 transition-colors shadow-lg">
               EXPERIENCE MORE
             </Link>
           </div>
@@ -158,7 +158,7 @@ export default function Home() {
             href="https://booking.naver.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block glass text-white px-12 py-5 rounded-full font-bold text-xl tracking-widest hover:bg-white/20 transition-all duration-300 shadow-2xl"
+            className="inline-block bg-accent text-white px-12 py-5 rounded-full font-bold text-xl tracking-widest hover:bg-accent/90 transition-all duration-300 shadow-2xl"
           >
             네이버 예약하기
           </a>

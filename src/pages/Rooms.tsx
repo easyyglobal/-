@@ -33,7 +33,7 @@ export default function Rooms() {
           <motion.span 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-secondary font-bold tracking-[0.3em] uppercase text-sm mb-4 block"
+            className="text-accent font-bold tracking-[0.3em] uppercase text-sm mb-4 block"
           >
             Our Spaces
           </motion.span>
@@ -69,11 +69,11 @@ export default function Rooms() {
                 <h2 className="text-3xl md:text-4xl font-bold text-primary">{room.name}</h2>
                 <p className="text-primary/60 text-lg leading-relaxed">{room.desc}</p>
                 <div className="pt-4 p-8 rounded-3xl bg-white/40 border border-primary/5">
-                  <h4 className="text-sm font-bold tracking-widest text-secondary uppercase mb-4">Amenities</h4>
+                  <h4 className="text-sm font-bold tracking-widest text-accent uppercase mb-4">Amenities</h4>
                   <ul className="grid grid-cols-2 gap-y-3">
                     {room.features.map(feature => (
                       <li key={feature} className="text-primary/70 text-sm flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 rounded-full bg-secondary" />
+                        <div className="w-1.5 h-1.5 rounded-full bg-accent" />
                         {feature}
                       </li>
                     ))}
@@ -84,7 +84,7 @@ export default function Rooms() {
                     href="https://booking.naver.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block px-10 py-4 bg-primary text-white rounded-full font-bold tracking-widest hover:bg-primary/90 transition-colors shadow-lg"
+                    className="inline-block px-10 py-4 bg-accent text-white rounded-full font-bold tracking-widest hover:bg-accent/90 transition-colors shadow-lg"
                   >
                     RESERVE NOW
                   </a>

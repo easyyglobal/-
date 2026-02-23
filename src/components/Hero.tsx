@@ -47,7 +47,7 @@ export default function Hero() {
             href="https://booking.naver.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="group glass text-white px-8 py-4 rounded-full font-bold tracking-widest flex items-center gap-2 hover:bg-white/20 transition-all duration-300"
+            className="group bg-accent text-white px-8 py-4 rounded-full font-bold tracking-widest flex items-center gap-2 hover:bg-accent/90 transition-all duration-300 shadow-xl"
           >
             네이버 예약하기
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

@@ -27,7 +27,7 @@ export default function Experience() {
           <motion.span 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-secondary font-bold tracking-[0.3em] uppercase text-sm mb-4 block"
+            className="text-accent font-bold tracking-[0.3em] uppercase text-sm mb-4 block"
           >
             Stay & Experience
           </motion.span>
@@ -79,7 +79,7 @@ export default function Experience() {
           <div className="absolute inset-0 bg-primary/40 backdrop-blur-[2px]" />
           <div className="relative z-10 max-w-2xl">
             <h2 className="text-white text-3xl md:text-5xl font-bold mb-6 italic">"The ocean stirs the heart, inspires the imagination and brings eternal joy to the soul."</h2>
-            <p className="text-white/70 tracking-widest uppercase text-sm">- Robert Wyland -</p>
+            <p className="text-accent tracking-widest uppercase text-sm font-bold">- Robert Wyland -</p>
           </div>
         </section>
       </div>

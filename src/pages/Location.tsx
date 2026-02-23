@@ -10,7 +10,7 @@ export default function Location() {
           <motion.span 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-secondary font-bold tracking-[0.3em] uppercase text-sm mb-4 block"
+            className="text-accent font-bold tracking-[0.3em] uppercase text-sm mb-4 block"
           >
             How to find us
           </motion.span>
@@ -32,7 +32,7 @@ export default function Location() {
           >
             <div>
               <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 text-primary">
-                <MapPin className="text-secondary" />
+                <MapPin className="text-accent" />
                 Address
               </h2>
               <p className="text-primary/70 text-lg leading-relaxed">
@@ -43,8 +43,8 @@ export default function Location() {
 
             <div className="space-y-8">
               <div className="flex gap-6 p-6 rounded-3xl bg-white/40 border border-primary/5">
-                <div className="w-12 h-12 rounded-2xl bg-secondary/20 flex items-center justify-center shrink-0">
-                  <Car className="text-secondary" />
+                <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center shrink-0">
+                  <Car className="text-accent" />
                 </div>
                 <div>
                   <h3 className="font-bold mb-2 text-primary">자가용 / 렌터카</h3>
@@ -56,8 +56,8 @@ export default function Location() {
               </div>
 
               <div className="flex gap-6 p-6 rounded-3xl bg-white/40 border border-primary/5">
-                <div className="w-12 h-12 rounded-2xl bg-secondary/20 flex items-center justify-center shrink-0">
-                  <Bus className="text-secondary" />
+                <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center shrink-0">
+                  <Bus className="text-accent" />
                 </div>
                 <div>
                   <h3 className="font-bold mb-2 text-primary">대중교통</h3>
@@ -70,10 +70,10 @@ export default function Location() {
             </div>
 
             <div className="pt-8 flex flex-wrap gap-4">
-              <a href="#" className="flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-xl text-sm font-bold hover:bg-primary/90 transition-colors">
+              <a href="#" className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-xl text-sm font-bold hover:bg-accent/90 transition-colors shadow-lg">
                 <Navigation className="w-4 h-4" /> 카카오맵 열기
               </a>
-              <a href="#" className="flex items-center gap-2 px-6 py-3 border border-primary/10 text-primary rounded-xl text-sm font-bold hover:bg-white/40 transition-colors">
+              <a href="#" className="flex items-center gap-2 px-6 py-3 border border-accent/20 text-accent rounded-xl text-sm font-bold hover:bg-accent/5 transition-colors">
                 <Navigation className="w-4 h-4" /> 네이버 지도 열기
               </a>
             </div>
@@ -94,7 +94,7 @@ export default function Location() {
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="glass p-6 rounded-2xl shadow-2xl flex flex-col items-center gap-2 animate-bounce">
-                <div className="w-4 h-4 bg-secondary rounded-full" />
+                <div className="w-4 h-4 bg-accent rounded-full" />
                 <span className="font-bold text-sm tracking-tighter text-white">METARIUM</span>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function Location() {
             ].map(spot => (
               <div key={spot.name} className="bg-white/40 border border-primary/5 p-8 rounded-3xl text-center hover:shadow-lg transition-shadow">
                 <h3 className="font-bold mb-2 text-primary">{spot.name}</h3>
-                <p className="text-secondary text-sm font-medium">{spot.dist}</p>
+                <p className="text-accent text-sm font-medium">{spot.dist}</p>
               </div>
             ))}
           </div>

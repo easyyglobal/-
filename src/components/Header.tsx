@@ -57,7 +57,7 @@ export default function Header() {
             className={cn(
               'px-6 py-2 rounded-full text-xs font-bold tracking-widest transition-all duration-300',
               isScrolled || !isHome 
-                ? 'bg-primary text-white hover:bg-primary/90' 
+                ? 'bg-accent text-white hover:bg-accent/90' 
                 : 'glass text-white hover:bg-white/20'
             )}
           >
