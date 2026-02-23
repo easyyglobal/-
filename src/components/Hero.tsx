@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://picsum.photos/seed/metarium-hero/1920/1080?blur=1"
+          src=/**"https://picsum.photos/seed/metarium-hero/1920/1080?blur=1"**/ "/images/main_bg.jpg"
           alt="Jeju Ocean View"
           className="w-full h-full object-cover scale-105"
           referrerPolicy="no-referrer"
